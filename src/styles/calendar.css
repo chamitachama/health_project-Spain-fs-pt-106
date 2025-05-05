@@ -1,0 +1,28 @@
+.All {
+    height: 100vh;
+    background-color: grey;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.h-30 {
+    height: 30%;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.h-70 {
+    height: 70%
+}
+
+.location-top-right {
+    background-color: gray;
+}
+
+.location-top-left {
+    background-color: gray;
+}
