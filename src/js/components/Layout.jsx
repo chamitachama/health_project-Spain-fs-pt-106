@@ -1,7 +1,8 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
-import Calendario from "./Calendario"
+import Calendario from "./Calendario";
+import Body from "./Body";
 
 function Layout() {
   return (
@@ -16,9 +17,13 @@ function Layout() {
             <main className="flex-grow-1 d-flex flex-column p-3 h-100">
               ComponenteTOOLS
               <div className="row h-100 gap-3 p-4">
-                <div className="col-5 bg-light">componente 1</div>
-                <div className="col bg-light">componente 2</div>
-                <div className="col bg-light p-0"><Calendario /></div>
+                <div className="col-sm-4 bg-light">componente 1</div>
+                <div className="col col-sm-3 bg-light">
+                  <Body />
+                </div>
+                <div className="col col-sm-3 bg-light p-0">
+                  <Calendario />
+                </div>
               </div>
             </main>
           </div>
