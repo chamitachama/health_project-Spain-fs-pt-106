@@ -12,12 +12,12 @@ function Layout() {
           <div className="col-md-1 bg-custom border-end border-secondary">
             <Sidebar />
           </div>
-          <div className="col bg-custom">
+          <div className="col bg-custom mh-100">
             Componente NAvBAr
-            <main className="flex-grow-1 d-flex flex-column p-3 ">
+            <main className="flex-grow-1 d-flex flex-column p-3 mh-90 ">
               ComponenteTOOLS
               <div className="row gap-3 p-4">
-                <div className="col-5 bg-light"><Corazon /></div>
+                <div className="col-5"><Corazon /></div>
                 <div className="col bg-light">componente 2</div>
                 <div className="col p-0"><Calendario /></div>
               </div>
