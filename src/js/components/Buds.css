@@ -1,0 +1,31 @@
+.pill {
+  padding: 1px;
+  border-radius: 25%;
+}
+
+.outer-div {
+  border-radius: 50%;
+}
+
+.img {
+  object-fit: cover;
+}
+
+/* .pill {
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  background-color: white;
+  border: 2px solid lightgrey;
+  border-radius: 50%;
+} */
+/*
+  .super-happy {
+    font-size: xx-large;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
