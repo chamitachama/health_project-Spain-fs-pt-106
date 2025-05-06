@@ -13,3 +13,11 @@
 .bg-custom {
   background-color: #b1daf5 !important;
 }
+
+.bg-grey-custom {
+  background-color: #eeeffa !important;
+}
+.boton {
+  width: 50px;
+  height: 50px;
+}

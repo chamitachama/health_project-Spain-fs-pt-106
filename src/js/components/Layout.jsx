@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
-import Calendario from "./Calendario"
+import Calendario from "./Calendario";
 
 function Layout() {
   return (
@@ -18,12 +18,13 @@ function Layout() {
               <div className="row h-100 gap-3 p-4">
                 <div className="col-5 bg-light">componente 1</div>
                 <div className="col bg-light">componente 2</div>
-                <div className="col bg-light p-0"><Calendario /></div>
+                <div className="col bg-light p-0">
+                  <Calendario />
+                </div>
               </div>
             </main>
           </div>
         </div>
-        <div className="row"></div>
       </div>
     </>
   );
