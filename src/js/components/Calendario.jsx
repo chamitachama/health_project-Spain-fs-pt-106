@@ -1,7 +1,7 @@
-const Calendar = () => {
+const Calendario = () => {
     return (
     <>
-<div className="All vh-100 container-fluid vh-100 m-auto col-12 col-md-4 d-flex flex-column">
+<div className="All vh-100 container-fluid vh-100 m-auto d-flex flex-column">
  <div className="calendar h-10 d-flex flex-row align-items-center justify-content-center gap-3 my-4">
     <div className="calendarday rounded-5 shadow border-0 bg-light text-center justify-content-center w-25 p-1 bg-opacity-50">
         <p className="fs-4 m-0 p-0 d-flex justify-content-center align-items-center">Mon</p>
@@ -88,18 +88,24 @@ const Calendar = () => {
  <div className="quality my-2 h-60 rounded-5 d-flex flex-column align-items-center justify-content-center bg-light">
 
 <div className="quality-top my-3 h-10 rounded-5 w-100 d-flex flex-row align-items-center justify-content-center bg-light">
-            <div className="quality-top-1 m-2 my-2 h-100 w-50 rounded-5 d-flex align-items-center justify-content-center">Life Quality</div>
-            <div className="quality-top-2 m-2 my-2 h-100 w-25 rounded-5 d-flex align-items-center justify-content-center">...</div>
-            <div className="quality-top-3 m-2 my-2 h-100 w-25 rounded-5 d-flex flex-row align-items-center justify-content-center">
-                <div className="quality-top-3 m-2 my-2 h-100 w-25 rounded-5 d-flex flex-row align-items-center justify-content-center">Week</div>
-                <div className="quality-top-3 m-2 my-2 h-100 w-25 rounded-5 d-flex flex-row align-items-center justify-content-center">...</div>
+
+            <div className="quality-top-1 mx-3 h-100 w-50 rounded-5 d-flex align-items-center fs-3">Life Quality</div>
+
+            <div className="quality-top-2 m-2 h-100 rounded-circle d-flex align-items-center justify-content-center fs-1 ">...</div>
+
+            <div className="quality-top-3 m-2 h-100 w-25 rounded-5 d-flex flex-row align-items-center justify-content-center">
+                <div className="Week m-2 h-100 w-50 rounded-5 d-flex flex-row align-items-center justify-content-center fs-4">Week</div>
+                <div className="dots m-2 h-100 w-50 rounded-5 d-flex flex-row align-items-center justify-content-center text-center fs-1">...</div>
             </div>
 </div>
-<div className="quality-middle my-2 h-30 w-100 rounded-5 d-flex flex-row align-items-center justify-content-center bg-light">
-            <div className="quality-middle-1 m-2 my-2 h-100 w-25 rounded-5 d-flex flex-row align-items-center justify-content-center">1</div>
-            <div className="quality-middle-2 m-2 my-2 h-100 w-75 rounded-5 d-flex flex-row align-items-center justify-content-center">2</div>
+<div className="quality-middle my-2 h-30 w-100 d-flex flex-row align-items-center justify-content-center bg-light">
+            <div className="quality-middle-1 m-2 h-100 w-25 d-flex flex-column align-items-center justify-content-center ">
+            <div className="fs-2">1.765</div>
+            <div className="">Quality Points</div>
+            </div>
+            <div className="quality-middle-2 m-2 h-100 w-75 d-flex flex-row align-items-center justify-content-center">2</div>
 </div>
-<div className="quality-bottom my-2 h-60 rounded-5 d-flex flex-row align-items-center justify-content-center bg-light">3</div>
+<div className="quality-bottom m-2 h-60 d-flex align-items-center justify-content-center bg-light">3</div>
 
  </div>
 </div>
@@ -107,4 +113,4 @@ const Calendar = () => {
     );
 };
 
-export default Calendar;
+export default Calendario;

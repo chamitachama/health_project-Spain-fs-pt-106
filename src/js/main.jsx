@@ -7,6 +7,7 @@ import "bootstrap";
 
 // index.css'
 import "../styles/index.css";
+import "../styles/calendar.css";
 
 // components
 // import Home from "./components/Home";
