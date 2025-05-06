@@ -1,7 +1,7 @@
-const Calendar = () => {
+const Calendario = () => {
     return (
     <>
-<div className="All vh-100 container-fluid vh-100 m-auto col-12 col-md-4 d-flex flex-column">
+<div className="All vh-100 container-fluid vh-100 m-auto d-flex flex-column">
  <div className="calendar h-10 d-flex flex-row align-items-center justify-content-center gap-3 my-4">
     <div className="calendarday rounded-5 shadow border-0 bg-light text-center justify-content-center w-25 p-1 bg-opacity-50">
         <p className="fs-4 m-0 p-0 d-flex justify-content-center align-items-center">Mon</p>
@@ -113,4 +113,4 @@ const Calendar = () => {
     );
 };
 
-export default Calendar;
+export default Calendario;
