@@ -2,6 +2,7 @@ import React from "react";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
 import Calendario from "./Calendario"
+import Corazon from "./Corazon";
 
 function Layout() {
   return (
@@ -16,7 +17,7 @@ function Layout() {
             <main className="flex-grow-1 d-flex flex-column p-3 ">
               ComponenteTOOLS
               <div className="row gap-3 p-4">
-                <div className="col-5 bg-light">componente 1</div>
+                <div className="col-5 bg-light"><Corazon /></div>
                 <div className="col bg-light">componente 2</div>
                 <div className="col p-0"><Calendario /></div>
               </div>
