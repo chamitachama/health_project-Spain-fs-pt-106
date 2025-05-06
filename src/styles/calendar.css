@@ -1,6 +1,7 @@
 .All {
     height: 100vh;
     background-color: #b1daf5 !important;
+    color:  midnightblue;
 }
 
 .h-10 {
@@ -25,6 +26,23 @@
 
 .h-70 {
     height: 70%
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+
+.w-70 {
+    width: 70%;
+}
+
+.btn {
+    color:  midnightblue;
 }
 
 .location-top-right {
@@ -54,14 +72,12 @@
     background-color: white;
 }
 
-.quality-top-2 {
-    border: 1px solid rgba(128, 128, 128, 0.2);
-    width: 8%;
-    padding: 10px
+.quality {
+    background-color: white;
 }
 
-.quality-top-3 {
-    border: 1px solid rgba(128, 128, 128, 0.2);
+.quality-top-2 {
+    padding: 10px
 }
 
 .dots {
