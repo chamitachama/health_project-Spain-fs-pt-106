@@ -1,6 +1,6 @@
 .All {
     height: 100vh;
-    background-color: grey;
+    background-color: rgb(167, 196, 216);
 }
 
 .h-10 {
@@ -9,6 +9,10 @@
 
 .h-30 {
     height: 30%;
+}
+
+.h-40 {
+    height: 40%;
 }
 
 .h-60 {
@@ -20,9 +24,28 @@
 }
 
 .location-top-right {
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.4);
+
 }
 
 .location-top-left {
-    background-color: gray;
+    background: url(https://www.shutterstock.com/image-vector/fictitious-generic-street-map-urban-600nw-2312834423.jpg);
+    object-fit:scale-down;
+}
+
+.car-right {
+    background-color: white;
+}
+
+.car-left {
+    background-color: rgb(255, 255, 101);
+}
+
+.car-middle {
+    background-color: midnightblue;
+    color: white;
+}
+
+.weather-left {
+    background-color: white;
 }
