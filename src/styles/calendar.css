@@ -7,6 +7,10 @@
     height: 10%;
 }
 
+.h-20 {
+    height: 20%;
+}
+
 .h-30 {
     height: 30%;
 }
@@ -24,7 +28,7 @@
 }
 
 .location-top-right {
-    background-color: rgba(128, 128, 128, 0.3);
+    background-color: rgba(128, 128, 128, 0.2);
 
 }
 
@@ -48,4 +52,18 @@
 
 .weather-left {
     background-color: white;
+}
+
+.quality-top-2 {
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    width: 8%;
+    padding: 10px
+}
+
+.quality-top-3 {
+    border: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.dots {
+    background-color: rgb(128, 128, 128, 0.2);
 }
