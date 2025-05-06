@@ -3,6 +3,7 @@ import Sidebar from "./Sidebar";
 import Header from "./Header";
 import Calendario from "./Calendario"
 import Corazon from "./Corazon";
+import Tools from "./Tools";
 
 function Layout() {
   return (
@@ -15,7 +16,7 @@ function Layout() {
           <div className="col bg-custom mh-100">
             Componente NAvBAr
             <main className="flex-grow-1 d-flex flex-column p-3 mh-90 ">
-              ComponenteTOOLS
+             <div><Tools /></div>
               <div className="row gap-3 p-4">
                 <div className="col-5"><Corazon /></div>
                 <div className="col bg-light">componente 2</div>
