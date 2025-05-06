@@ -9,3 +9,7 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.bg-custom {
+  background-color: #b1daf5 !important;
+}
