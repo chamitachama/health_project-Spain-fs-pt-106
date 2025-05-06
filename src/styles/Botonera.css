@@ -1,20 +1,8 @@
 .bg-grey-custom {
     background-color: #eeeffa !important;
 }
-.boton {
-display: flex;
-align-items: center;
+
+.boton-test {
+    height: 60px;
+    width: 60px;
 }
-
-/* .boton-circle {
-    height: 40px;
-    width: 40px;
-} */
-
-.nav-link {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }

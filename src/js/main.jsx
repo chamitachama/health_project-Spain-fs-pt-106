@@ -8,10 +8,9 @@ import "bootstrap";
 // index.css'
 import "../styles/index.css";
 import "../styles/calendar.css";
+import "../styles/botonera.css"
 
 // components
-// import Home from "./components/Home";
-import Sidebar from "./components/Sidebar";
 import Layout from "./components/Layout";
 
 ReactDOM.createRoot(document.getElementById("root")).render(

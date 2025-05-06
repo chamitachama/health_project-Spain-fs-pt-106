@@ -3,8 +3,8 @@ import React from "react";
 function Corazon() {
     return (
         <>
-            <div className="bg-primary-subtle min-vh-100 d-flex align-items-center justify-content-center p-4">
-                <main className="bg-white rounded-5 w-100" style={{ maxWidth: "480px", padding: "24px" }}>
+            <div className=" min-vh-100 d-flex align-items-center justify-content-center">
+                <main className="bg-white rounded-5 w-100" style={{ maxWidth: "100%", height: "100%", padding: "24px" }}>
                     {/* Navigation */}
                     <nav className="d-flex gap-2 flex-wrap align-items-center mb-4">
                         <button className="btn btn-primary fw-semibold px-3 py-2">Blood pressure</button>
