@@ -1,18 +1,23 @@
 import React from "react";
 import Buds from "./Buds.jsx";
+import Lungs from "./Lungs.jsx";
 import "./Body.css";
 
 //include images into your bundle
 import humanBody from "../../img/human-body.jpg";
 
 //create your first component
-function Body({ children }) {
+function Body() {
   return (
     <>
       <div className="container body-container text-center">
-        <div>
-          {children}
-          <Buds />
+        <div className="d-flex gap-2 justify-space-between">
+          <div className="d-flex top-left flex-start">
+            <Buds />
+          </div>
+          <div className="d-flex top-right flex-end">
+            <Lungs />
+          </div>
         </div>
 
         <div className="justify-content-center">

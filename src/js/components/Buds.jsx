@@ -1,22 +1,22 @@
+import cross from "../../img/X.png";
+import success from "../../img/success.png";
+import "./Buds.css";
+
 function Buds() {
   return (
     <>
-      <div className="">
-        <div className="card mb-3" style={{ maxWidth: "540px" }}>
+      <div className="outer-div">
+        <div className="card mb-3" style={{ maxWidth: "200px" }}>
           <div className="row g-0">
-            <div className="col-md-4">
-              <img src="" className="img-fluid rounded-start" alt="..." />
+            <div className="pill col-md-4">
+              <img src={cross} className="img-fluid rounded-start" alt="X" />
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <small className="text-muted">Buds</small>
+                <p className="card-text"></p>
                 <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <p className="card-text">
-                  <small className="text-muted">Last updated 3 mins ago</small>
+                  <h5 className="card-title">Hurted</h5>
                 </p>
               </div>
             </div>
