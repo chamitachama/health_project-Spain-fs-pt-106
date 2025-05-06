@@ -61,7 +61,7 @@ const Calendar = () => {
             </div>
                 <div className="location-bottom-left-2 my-1 h-100 w-75 rounded-5 d-flex flex-row align-items-center justify-content-center">
                 <button type="button" className="btn btn-light w-100 shadow d-flex flex-row rounded-5 p-0 border-0">
-                <div className="icon my-2 h-100 w-25 rounded-5 d-flex justify-content-end align-items-center">💊</div> 
+                <div className="icon my-2 h-100 w-25 rounded-5 d-flex justify-content-end align-items-center">X</div> 
                 <div className="pill m-2 my-2 h-100 w-75 d-flex justify-content-start align-items-center">Lisinopril</div>
                 </button>
                 </div>
