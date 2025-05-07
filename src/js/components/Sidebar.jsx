@@ -7,7 +7,7 @@ function Sidebar() {
         <a className="justify-content-center mb-4" href="#">
           <img src="src/img/brand-logo.png" height={80} />
         </a>
-        <div className="d-flex align-self-center rounded">
+        <div className="d-flex align-self-center">
           <Botonera />
         </div>
       </div>

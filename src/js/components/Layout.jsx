@@ -3,32 +3,29 @@ import Sidebar from "./Sidebar";
 import Header from "./Header";
 import Calendario from "./Calendario";
 import Body from "./Body";
+import Corazon from "./Corazon";
+import Tools from "./Tools";
 
 function Layout() {
   return (
     <>
-      <div className="container-fluid vh-100 bg-custom p-4">
-        <div className="row d-flex h-100">
+      <div className="container-fluid bg-custom p-4">
+        <div className="row d-flex">
           <div className="col-md-1 bg-custom border-end border-secondary">
             <Sidebar />
           </div>
-          <div className="col bg-custom">
+          <div className="col bg-custom mh-100">
             Componente NAvBAr
-            <main className="flex-grow-1 d-flex flex-column p-3 h-100">
-              ComponenteTOOLS
-              <div className="row h-100 gap-3 p-4">
-                <div className="col-sm-4 bg-light">componente 1</div>
-                <div className="col col-sm-3 bg-light">
-                  <Body />
-                </div>
-                <div className="col col-sm-3 bg-light p-0">
-                  <Calendario />
-                </div>
+            <main className="flex-grow-1 d-flex flex-column p-3 mh-90 ">
+             <div><Tools /></div>
+              <div className="row gap-3 p-4">
+                <div className="col-5"><Corazon /></div>
+                <div className="col bg-light">componente 2</div>
+                <div className="col p-0"><Calendario /></div>
               </div>
             </main>
           </div>
         </div>
-        <div className="row"></div>
       </div>
     </>
   );

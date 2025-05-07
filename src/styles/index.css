@@ -13,3 +13,7 @@
 .bg-custom {
   background-color: #b1daf5 !important;
 }
+
+html, body, #root {
+  height: 100%;
+}
