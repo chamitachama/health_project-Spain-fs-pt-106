@@ -1,7 +1,8 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
-import Calendario from "./Calendario"
+import Calendario from "./Calendario";
+import Body from "./Body";
 import Corazon from "./Corazon";
 import Tools from "./Tools";
 
