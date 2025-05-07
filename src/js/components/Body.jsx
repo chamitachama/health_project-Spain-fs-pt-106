@@ -23,8 +23,7 @@ function Body() {
           <img className="text-center" src={humanBody} />
         </div>
         {/* Body Parts */}
-      </div>
-      <div>
+      
         {/* Emoticons */}
         <div className="col emoticons">
           <div className="emoticon super-happy">😆</div>
