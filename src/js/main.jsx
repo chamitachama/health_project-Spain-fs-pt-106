@@ -9,6 +9,9 @@ import "bootstrap";
 import "../styles/index.css";
 import "../styles/calendar.css";
 import "../styles/botonera.css"
+import "../styles/lungs.css"
+import "../styles/buds.css"
+import "../styles/body.css"
 
 // components
 import Layout from "./components/Layout";
