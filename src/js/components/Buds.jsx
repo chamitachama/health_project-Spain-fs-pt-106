@@ -1,6 +1,6 @@
 import cross from "../../img/X.png";
 import success from "../../img/success.png";
-import "./Buds.css";
+// import "./buds.css";
 
 function Buds() {
   return (

@@ -1,6 +1,6 @@
 import success from "../../img/success.png";
 import lungs from "../../img/lungs.jpg";
-import "./Lungs.css";
+// import "./lungs.css";
 
 function Lungs() {
   return (

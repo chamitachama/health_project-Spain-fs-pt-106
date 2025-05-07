@@ -1,7 +1,6 @@
 import React from "react";
-import Buds from "./Buds.jsx";
-import Lungs from "./Lungs.jsx";
-import "./Body.css";
+import Buds from "./Buds";
+import Lungs from "./Lungs";
 
 //include images into your bundle
 import humanBody from "../../img/human-body.jpg";
