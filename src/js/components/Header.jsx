@@ -1,28 +1,27 @@
-function Header() {
-  return (
-    <>
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">
-            Active
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            Link
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            Link
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
-    </>
-  );
-}
+import ButtonBase from "./Buttonbase"
+import {
+    Search,
+  } from "lucide-react";
+  
 
-export default Header;
+function HeaderButtons (){
+    return (
+        <>
+            <div className="col d-flex gap-3 align-items-center">
+            <ButtonBase icon={Search} onClick={() => { 
+                alert ("HOLA"); }} />
+                <div className="p-1 d-flex gap-5 border-start border-secondary" >
+                    <div  className="ms-3">
+                        <a href="#">Dashboard</a>               
+
+                    </div>
+                    <a href="#">Analitics</a>               
+                    <a href="#">Reports</a>               
+                </div>
+             </div>
+        
+        </>
+    )
+};
+
+export default HeaderButtons

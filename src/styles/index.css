@@ -4,5 +4,37 @@
 
 html, body, #root {
   height: 100%;
-  color:  midnightblue;
+  color:  rgb(43, 43, 47);
+}
+
+
+.button-custom {
+  background-color: white;
+  border: none;
+  border-radius: 50%; /* círculo */
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.button-custom:hover {
+  background-color: #5653FF
+}
+
+.button-custom:active {
+  background-color: rgb(192, 192, 192);
+}
+
+/* *{
+  border: 1px solid red ;
+} */
+
+h1{
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.all{
+  height: 100vh;
 }
