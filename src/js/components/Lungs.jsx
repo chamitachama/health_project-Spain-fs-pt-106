@@ -17,7 +17,7 @@ function Lungs() {
                 <p className="card-text"></p>
                 <p className="card-text"></p>
                   <h5 className="card-title">Excellent</h5>
-                  <img src={ lungs } className="card-img-bot" alt="lungsImage"></img>
+                  <img src={ lungs } className="img-fluid" alt="lungsImage"></img>
               </div>
             </div>
           </div>

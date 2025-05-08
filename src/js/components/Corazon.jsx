@@ -3,7 +3,7 @@ import React from "react";
 function Corazon() {
     return (
         <>
-            <div className=" min-vh-100 d-flex align-items-center justify-content-center">
+            <div className="d-flex align-items-center justify-content-center">
                 <main className="bg-white rounded-5 w-100" style={{ maxWidth: "100%", height: "100%", padding: "24px" }}>
                     {/* Navigation */}
                     <nav className="d-flex gap-2 flex-wrap align-items-center mb-4">

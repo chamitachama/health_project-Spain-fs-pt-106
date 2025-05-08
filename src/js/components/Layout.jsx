@@ -20,7 +20,7 @@ function Layout() {
               <div><Tools /></div>
               <div className="row gap-3 p-4">
                 <div className="col-5"><Corazon /></div>
-                <div className="col bg-light"><Body /></div>
+                <div className="col"><Body /></div>
                 <div className="col p-0"><Calendario /></div>
               </div>
             </main>

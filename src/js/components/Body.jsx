@@ -9,8 +9,9 @@ import humanBody from "../../img/human-body.jpg";
 function Body() {
   return (
     <>
-      <div className="container body-container text-center">
-        <div className="d-flex gap-2 justify-space-between">
+    <div className="container-fluid body-container m-0 rounded-5">
+      <div className="body-photo text-center">
+        {/* <div className="d-flex gap-2 justify-space-between">
           <div className="d-flex top-left flex-start">
             <Buds />
           </div>
@@ -19,18 +20,15 @@ function Body() {
           </div>
         </div>
 
-        <div className="justify-content-center">
-          <img className="text-center" src={humanBody} />
-        </div>
-        {/* Body Parts */}
-      
-        {/* Emoticons */}
-        <div className="col emoticons">
+        <div className="justify-content-center d-flex flex-row">
+        <div className="col emoticons z-1">
           <div className="emoticon super-happy">😆</div>
           <div className="emoticon happy">🙂</div>
           <div className="emoticon neutral">😑</div>
           <div className="emoticon sad">😕</div>
           <div className="emoticon angry">😡</div>
+        </div>
+        </div> */}
         </div>
       </div>
     </>
