@@ -1,3 +1,5 @@
 .lungs-outer-div {
-  border: 0;
+    background-color: white;
+    overflow: hidden;
 }
+

@@ -2,35 +2,32 @@ import React from "react";
 import Buds from "./Buds";
 import Lungs from "./Lungs";
 
-//include images into your bundle
-import humanBody from "../../img/human-body.jpg";
-
 //create your first component
 function Body() {
   return (
     <>
-    <div className="container-fluid body-container m-0 rounded-5">
+    <div className="container-fluid body-container m-0 rounded-5 d-flex">
       <div className="body-photo text-center">
-        {/* <div className="d-flex gap-2 justify-space-between">
-          <div className="d-flex top-left flex-start">
+        <div className="row d-flex justify-space-between">
+          <div className="d-flex col m-3">
             <Buds />
           </div>
-          <div className="d-flex top-right flex-end">
+          <div className="d-flex col m-3">
             <Lungs />
           </div>
         </div>
 
-        <div className="justify-content-center d-flex flex-row">
-        <div className="col emoticons z-1">
+        <div className="justify-content-start d-flex border-0">
+        <div className="emoticons rounded-pill p-2 shadow d-flex flex-column justify-content-center">
           <div className="emoticon super-happy">😆</div>
           <div className="emoticon happy">🙂</div>
           <div className="emoticon neutral">😑</div>
           <div className="emoticon sad">😕</div>
           <div className="emoticon angry">😡</div>
         </div>
-        </div> */}
         </div>
       </div>
+    </div>
     </>
   );
 }

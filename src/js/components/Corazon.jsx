@@ -31,10 +31,10 @@ function Corazon() {
                             style={{ width: 128, height: 128 }}
                         >
                             <img
-                                src="https://storage.googleapis.com/a1aa/image/e1455efe-c3d7-4528-89e0-751920251988.jpg"
+                                src="https://dvl2h13awlxkt.cloudfront.net/assets/general-images/Knowledge/_800x800_crop_center-center_82_none/heart-anatomy.png?mtime=1675729924"
                                 alt="Heart illustration"
-                                width="64"
-                                height="64"
+                                width="85"
+                                height="85"
                             />
                         </div>
                     </div>
